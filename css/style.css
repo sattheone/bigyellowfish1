@@ -182,8 +182,74 @@ span.boldText{
 
 
 /*--------------------------------------------------------------
-# Intro Section
+# Hero Section
 --------------------------------------------------------------*/
+
+#bigbanner{
+background: linear-gradient(rgba(0, 142, 99, 0), rgba(0, 0, 0, 0)), url(../img/banner-image.png) center center;
+  height: 600px;
+}
+.bigbanner-container{
+    
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#bigbanner h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+#bigbanner h2 span {
+  color: #F87900;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#bigbanner p {
+  width: 80%;
+  color: #fff;
+}
+
+.btn-get-started {
+  background-image: linear-gradient(-228deg, #FFB720 0%, #F87900 100%);
+  font-family: "Muli", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+}
+
+.btn-get-started:hover {
+  background: #fff;
+  color: #F87900;
+}
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------
 
 #intro {
   display: table;
@@ -255,7 +321,6 @@ span.boldText{
 
 #intro p {
   width: 80%;
-  margin: 0 auto 30px auto;
   color: #fff;
 }
 
@@ -305,24 +370,12 @@ span.boldText{
   cursor: pointer;
 }
 
-.btn-get-started {
-  background-image: linear-gradient(-228deg, #FFB720 0%, #F87900 100%);
-  font-family: "Muli", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 28px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin: 10px;
-  color: #fff;
-}
 
-.btn-get-started:hover {
-  background: #fff;
-  color: #F87900;
-}
+
+*/
+
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -930,9 +983,9 @@ background-image: url(../img/tick-icon.png);
 #product-preview .owl-dot {
   display: inline-block;
   margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+     width: 40px;
+    height: 3px;
+    border-radius: 0px;
   background-color: #ddd;
 }
 
@@ -1154,4 +1207,34 @@ margin: 0px;
   #mobile-nav-toggle {
     display: inline;
   }
+
+  .bigbanner-container{
+    
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: auto;
+  top: 100px;
+  left: auto;
+  right: auto;
+}
+
+#bigbanner{
+  height: 700px;
+}
+#services .content{
+  background-image:none;
+  padding: 30px 0px;
+}
+
 }
