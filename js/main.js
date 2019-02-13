@@ -179,8 +179,13 @@
     dots: true,
     loop: true,
     nav:true,
-    responsive: { 320: { items: 1 }, 480: { items: 2 }, 768: { items: 3 }, 900: { items: 3 }
-    },
+    items : 1, // THIS IS IMPORTANT
+      responsive : {
+            480 : { items : 1  }, // from zero to 480 screen width 1 items
+            768 : { items : 2  }, // from 480 screen widthto 768 2 items
+            1024 : { items : 3   // from 768 screen width to 1024 3 items
+            }
+        },
     navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
   });
 

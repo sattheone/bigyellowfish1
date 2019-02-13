@@ -188,6 +188,7 @@ span.boldText{
 #bigbanner{
 background: linear-gradient(rgba(0, 142, 99, 0), rgba(0, 0, 0, 0)), url(../img/banner-image.png) center center;
   height: 600px;
+  position: relative;
 }
 .bigbanner-container{
     
@@ -1235,9 +1236,6 @@ margin: 0px;
   right: auto;
 }
 
-#bigbanner{
-  height: 700px;
-}
 #services .content{
   background-image:none;
   padding: 30px 0px;
