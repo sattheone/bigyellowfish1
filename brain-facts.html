@@ -35,6 +35,107 @@
 
 
   <!--==========================
+    Modal
+  ============================-->
+
+<div id="demoModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <section id="pricing-form">
+      <div class="container">
+
+<div class="col-md-12 form-wrap">
+
+
+    <h4>Request Demo</h4>
+
+ <div class="row">
+
+
+
+              <div class="col-md-6 mb-1">
+                <label for="firstName"></label>
+                <input type="text" class="form-control" id="firstName" placeholder="Name" value="" required>
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-1">
+                 <label for="email"> </label>
+              <input type="email" class="form-control" id="email" placeholder="Email address">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 mb-1">
+                <label for="companyName"></label>
+                <input type="text" class="form-control" id="companyName" placeholder="Company Name" value="" required>
+                <div class="invalid-feedback">
+                  Valid company name is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-1">
+                 <label for="phone"> </label>
+              <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number">
+              <div class="invalid-feedback">
+                Please enter a phone number.
+              </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                     <label for="form_message"></label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message *" rows="3" required="required" data-error="Please, leave us a message."></textarea>
+                <div class="invalid-feedback">
+                  Please, leave us a message.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="radio-wrap">
+                <p>Looking for a solution for</p>
+                       <div class="custom-control custom-radio">
+                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                <label class="custom-control-label" for="credit">Maritime</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="debit">Others</label>
+              </div>
+              </div>
+              </div>
+            </div>
+
+
+            <button class="btn get-quote-btn btn-lg btn-block" type="submit">Ask for a Demo</button>
+
+
+
+</div>
+
+
+      </div>
+    </section>
+
+                <div class="modal-contact-footer">
+              <h3>Get in touch with us</h3>
+              <div class="row">
+              <ul>
+                <li><img src="img/e-mail-envelope.png"><a href="mailto:kunal@bigyellowfish.io">kunal@bigyellowfish.io</a></li>
+                <li><img src="img/phone-call.png"><a href="">+91 96000 88844</a></li>
+              </ul>
+              </div>
+            </div>
+
+      </div>
+  </div>
+</div>
+
+  <!--==========================
     Header
   ============================-->
   <header id="header">
@@ -47,7 +148,7 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu nav-menu-whitebg">
-          <li class="menu-active"><a href="#intro">yellowbox</a></li>
+          <li><a href="index.html">yellowbox</a></li>
           <li><a href="#">Maritime</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="#" class="ask-demo" data-toggle="modal" data-target="#demoModal">Ask for a Demo</a></li>
